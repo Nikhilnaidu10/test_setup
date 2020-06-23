@@ -5,7 +5,7 @@ setup(name='nlp_test',
     description='testing tensorflow package intallation',
     author='Nikhilnaidu10',
     url='https://github.com/Nikhilnaidu10/test_setup',
-    packages=['nlp'],
+    packages=['main'],
     install_requires=[
         'tensorflow'
     ]
