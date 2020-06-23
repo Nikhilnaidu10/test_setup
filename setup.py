@@ -7,6 +7,7 @@ setup(name='test_setup',
     url='https://github.com/Nikhilnaidu10/test_setup',
     packages=['nlp'],
     install_requires=[
-        'tensorflow'
+        'tensorflow',
+        'tensorflow-datasets'
     ]
 )
