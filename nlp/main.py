@@ -22,8 +22,10 @@ Original file is located at
 """<a href="https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%201.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>"""
 
 import tensorflow as tf
+import os
 print(tf.__version__)
-!pip install -q tensorflow-datasets
+cmd = 'pip install -q tensorflow-datasets'
+os.system(cmd)
 
 import tensorflow_datasets as tfds
 import numpy as np
