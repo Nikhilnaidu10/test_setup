@@ -23,8 +23,7 @@ Original file is located at
 
 import tensorflow as tf
 print(tf.__version__)
-
-# !pip install -q tensorflow-datasets
+!pip install -q tensorflow-datasets
 
 import tensorflow_datasets as tfds
 import numpy as np
